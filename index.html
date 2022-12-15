@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/color-1.css">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/color-1.css" class="alternate-style" title="color-1" disabled>
+	<link rel="stylesheet" href="css/color-2.css" class="alternate-style" title="color-2" disabled>
+	<link rel="stylesheet" href="css/color-3.css" class="alternate-style" title="color-3" disabled>
+	<link rel="stylesheet" href="css/color-4.css" class="alternate-style" title="color-4" disabled>
+	<link rel="stylesheet" href="css/color-5.css" class="alternate-style" title="color-5" disabled>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__row">
+				<div class="header__column-l">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" data-goto=".head" class="menu__link">
+										<i class="fa-sharp fa-solid fa-house-chimney"></i><span>Главная</span></a></li>
+								<li class="menu__item"><a href="#" data-goto=".parts" class="menu__link"><i
+											class="fa-solid fa-list-ul"></i><span>Порядок работы</span></a></li>
+								<li class="menu__item"><a href="#" data-goto=".portfolio" class="menu__link"><i
+											class="fa-sharp fa-solid fa-images"></i><span>Портфолио</span></a></li>
+								<li class="menu__item"><a href="#" data-goto=".faq" class="menu__link">
+										<i class="fa-solid fa-question"></i><span>Ответы на вопросы</span></a></li>
+								<li class="menu__item"><a href="#" data-goto=".contact" class="menu__link"><i
+											class="fa-regular fa-address-card"></i><span>Связь со мной</span></a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__style-switcher style-switcher">
+						<div class="style-switcher-toggler s-icon">
+							<i class="fas fa-cog fa-spin"></i>
+						</div>
+						<div class="day-night s-icon">
+							<button type="button" class="page__theme"></button>
+							<button type="button" class="page__reset"></button>
+						</div>
+						<h4>Theme Colors</h4>
+						<div class="colors">
+							<span class="color-1" onclick="setActiveStyle('color-1')"></span>
+							<span class="color-2" onclick="setActiveStyle('color-2')"></span>
+							<span class="color-3" onclick="setActiveStyle('color-3')"></span>
+							<span class="color-4" onclick="setActiveStyle('color-4')"></span>
+							<span class="color-5" onclick="setActiveStyle('color-5')"></span>
+						</div>
+					</div>
+				</div>
+				<div class="header__column-m">
+					<div class="header__social">
+						<a href="#" class="header__ico">
+							<img src="img/telegram.svg" alt="">
+						</a>
+						<a href="#" class="header__ico">
+							<img src="img/viber.svg" alt="">
+						</a>
+						<a href="#" class="header__ico">
+							<img src="img/whatsapp.svg" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="header__column-r">
+					<div class="header__arrow">
+						<a href="#" data-goto=".head"><i class="fa-solid fa-angles-up"></i></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="bg">
+		</div>
+		<main class="page">
+			<section class="head">
+				<div class="head__bg">
+					<picture>
+						<source srcset="img/bg-head.webp" type="image/webp"><img data-prlx-mouse data-prlx-a=15
+							src="img/bg-head.png" alt="">
+					</picture>
+				</div>
+				<div class="head__container">
+					<div class="head__body">
+						<h1 data-watch data-watch-once class="head__title">
+							<p>
+								Меня зовут Александр и я - Web-разработчик
+							</p>
+						</h1>
+						<div data-watch data-watch-once class="head__text">
+							<p>
+								Вам нужен сайт? Адаптивный, с базовой seo- оптимизацией и высокой скоростью загрузки.
+							</p>
+							<p>Внимательность к деталям, креативные решения и индивидуальный подход гарантируются.</p>
+						</div>
+						<div data-watch data-watch-once class="head__btn">
+							<a href="#" data-popup="#popup" class="head__button">
+								<span>
+									Бесплатная консультация
+								</span>
+							</a>
+							<span class="head__faq">
+								Отвечу на вопросы
+							</span>
+						</div>
+					</div>
+					<div class="arrow-bottom">
+						<a href="#" data-goto=".parts"><span></span><span></span><span></span></a>
+					</div>
+				</div>
+			</section>
+			<section data-watch class="parts">
+				<div class="parts__container">
+					<h2 data-watch data-watch-once class="parts__title">
+						Порядок работы
+					</h2>
+					<div class="parts__rows">
+						<div data-watch data-watch-once class="parts__column">
+							<div class="parts__body">
+								<div class="parts__bodys">
+									<div class="parts__image">
+										<i class="fa-regular fa-comment"></i>
+									</div>
+									<div class="parts__col-title">
+										Заявка
+									</div>
+									<div class="parts__col-text">
+										Вы оставляете зявку на сайте либо связываетесь со мной любым удобным для вас способом.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="parts__column">
+							<div class="parts__body">
+								<div class="parts__bodys">
+									<div class="parts__image">
+										<i class="fa-regular fa-comments"></i>
+									</div>
+									<div class="parts__col-title">
+										Консультация
+									</div>
+									<div class="parts__col-text">
+										Я консультирую Вас по всем вопросам. Мы обсуждаем техническое задание, уточняем детали и
+										обговариаем срок сдачи готового проекта.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="parts__column">
+							<div class="parts__body">
+								<div class="parts__bodys">
+									<div class="parts__image">
+										<i class="fa-solid fa-pen-ruler"></i>
+									</div>
+									<div class="parts__col-title">
+										Прототип
+									</div>
+									<div class="parts__col-text">
+										Готовлю прототип сайта, предоставляю Вам. Вы вносите правки, я дорабатываю до
+										устраивающего
+										Вас результата.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="parts__column">
+							<div class="parts__body">
+								<div class="parts__bodys">
+									<div class="parts__image">
+										<i class="fa-solid fa-code"></i>
+									</div>
+									<div class="parts__col-title">
+										Верстка
+									</div>
+									<div class="parts__col-text">
+										Верстаю сайт, устанавливаю необходимывай Вам функционал.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="parts__column">
+							<div class="parts__body">
+								<div class="parts__bodys">
+									<div class="parts__image">
+										<i class="fa-solid fa-eye"></i>
+									</div>
+									<div class="parts__col-title">
+										Демонстрация
+									</div>
+									<div class="parts__col-text">
+										Демонстрирую готовый проект, его работу в интернете.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="parts__column">
+							<div class="parts__body">
+								<div class="parts__bodys">
+									<div class="parts__image">
+										<i class="fa-solid fa-gear"></i>
+									</div>
+									<div class="parts__col-title">
+										Установка
+									</div>
+									<div class="parts__col-text">
+										Передаю Вам файлы Вашего сайта и помогаю с установкой на Ваш хостинг.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="portfolio">
+				<div class="portfolio__container">
+					<h2 data-watch data-watch-once class="portfolio__title">
+						Портфолио
+					</h2>
+					<!-- Оболочка слайдера -->
+					<div data-watch data-watch-once class="portfolio__slider slider  swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="slider__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="slider__item swiper-slide">
+								<div class="slider__img">
+									<a target="_blank" href="https://oleksandrodessa.github.io/comp/">
+										<picture>
+											<source srcset="img/1.webp" type="image/webp"><img src="img/1.png" alt="">
+										</picture>
+										<span>
+											<i class="fa-solid fa-magnifying-glass-plus"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="slider__item swiper-slide">
+								<div class="slider__img">
+									<a target="_blank" href="https://oleksandrodessa.github.io/Ava/">
+										<picture>
+											<source srcset="img/2.webp" type="image/webp"><img src="img/2.png" alt="">
+										</picture>
+										<span>
+											<i class="fa-solid fa-magnifying-glass-plus"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="slider__item swiper-slide">
+								<div class="slider__img">
+									<a target="_blank" href="https://oleksandrodessa.github.io/Skillz/">
+										<picture>
+											<source srcset="img/3.webp" type="image/webp"><img src="img/3.png" alt="">
+										</picture>
+										<span>
+											<i class="fa-solid fa-magnifying-glass-plus"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="slider__item swiper-slide">
+								<div class="slider__img">
+									<a target="_blank" href="https://oleksandrodessa.github.io/marathon/">
+										<picture>
+											<source srcset="img/4.webp" type="image/webp"><img src="img/4.png" alt="">
+										</picture>
+										<span>
+											<i class="fa-solid fa-magnifying-glass-plus"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="slider__item swiper-slide">
+								<div class="slider__img">
+									<a target="_blank" href="https://oleksandrodessa.github.io/Disco/">
+										<picture>
+											<source srcset="img/5.webp" type="image/webp"><img src="img/5.png" alt="">
+										</picture>
+										<span>
+											<i class="fa-solid fa-magnifying-glass-plus"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="slider__item swiper-slide">
+								<div class="slider__img">
+									<a target="_blank" href="https://oleksandrodessa.github.io/carpet/">
+										<picture>
+											<source srcset="img/6.webp" type="image/webp"><img src="img/6.png" alt="">
+										</picture>
+										<span>
+											<i class="fa-solid fa-magnifying-glass-plus"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="slider__item swiper-slide">
+								<div class="slider__img">
+									<a target="_blank" href="https://oleksandrodessa.github.io/MyFirstProjectSlide/">
+										<picture>
+											<source srcset="img/7.webp" type="image/webp"><img src="img/7.png" alt="">
+										</picture>
+										<span>
+											<i class="fa-solid fa-magnifying-glass-plus"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="slider__item swiper-slide">
+								<div class="slider__img">
+									<a target="_blank" href="https://oleksandrodessa.github.io/Avilio/ ">
+										<picture>
+											<source srcset="img/8.webp" type="image/webp"><img src="img/8.png" alt="">
+										</picture>
+										<span>
+											<i class="fa-solid fa-magnifying-glass-plus"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="slider__item swiper-slide">
+								<div class="slider__img">
+									<a target="_blank" href="https://oleksandrodessa.github.io/Rest/">
+										<picture>
+											<source srcset="img/9.webp" type="image/webp"><img src="img/9.png" alt="">
+										</picture>
+										<span>
+											<i class="fa-solid fa-magnifying-glass-plus"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- Если нужна пагинация -->
+						<div class="swiper-pagination"></div>
+						<!-- Если нужна навигация (влево/вправо) -->
+						<button type="button" class="swiper-button-prev"></button>
+						<button type="button" class="swiper-button-next"></button>
+					</div>
+				</div>
+			</section>
+			<section class="faq">
+				<div class="faq__container">
+					<h2 data-watch data-watch-once class="faq__title">
+						Ответы на вопросы
+					</h2>
+					<div class="faq__rows">
+						<div class="faq__column-l">
+							<div data-spollers data-one-spoller class="faq__spollers spollers">
+								<div data-watch data-watch-once class="spollers__item">
+									<button type="button" data-spoller data-spoller-close class="spollers__title">Как происходит
+										оплата?</button>
+									<div class="spollers__body">Оплата осуществляется поэтапно.</div>
+								</div>
+								<div data-watch data-watch-once class="spollers__item">
+									<button type="button" data-spoller data-spoller-close class="spollers__title">Что
+										используется в работе?</button>
+									<div class="spollers__body">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Necessitatibus aspernatur, magni repellendus consectetur temporibus ipsa.</div>
+								</div>
+								<div data-watch data-watch-once class="spollers__item">
+									<button type="button" data-spoller data-spoller-close class="spollers__title">От чего зависит
+										стоимость сайта?</button>
+									<div class="spollers__body">
+										<p>
+											Стоимость сайта зависит от таких факторов как: объем работы,
+											сложность поставленных задач.
+										</p>
+										<p>
+											Так же в стоиость учитываются дополнительные услуги, такие
+											как разработка дизайна и установка сайта на хостинг, если в этом есть необходимость.
+										</p>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="spollers__item">
+									<button type="button" data-spoller data-spoller-close class="spollers__title">От чего зависят
+										сроки выполнения?</button>
+									<div class="spollers__body">Сроки выполнения зависят от сложности проектов и обговариваются
+										во время получения задания.</div>
+								</div>
+								<div data-watch data-watch-once class="spollers__item">
+									<button type="button" data-spoller data-spoller-close class="spollers__title">Возможно ли
+										создание сайта по своему дизайну?</button>
+									<div class="spollers__body">Да, при создании сайта можем использовать как Ваш дизайн, так и
+										при необходимости могу предоставить свои услуги по его разработке.</div>
+								</div>
+							</div>
+						</div>
+						<div class="faq__column-r">
+							<div class="faq__image">
+								<picture>
+									<source srcset="img/faq__bg-big.png" type="image/jpeg" media="(min-width: 1440px)">
+									<img src="img/faq__bg-small.png" alt="">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="contact__container">
+					<h2 data-watch data-watch-once class="contact__title">
+						Связь со мной
+					</h2>
+					<div data-watch data-watch-once class="contact__body">
+						<div class="contact__bodys">
+							<form action="#">
+								<h3 class="contact__b-title">
+									Оставить заявку
+								</h3>
+								<div class="contact__b-sub-title">
+									И я свяжусь с Вами в ближайшее время
+								</div>
+								<div class="contact__b-sub-title contact__b-sub-title-small">
+									И я свяжусь с Вами <br> в ближайшее время
+								</div>
+								<div class="contact__rows">
+									<div class="contact__column-l contact-l">
+										<div class="contact-l__body">
+											<div class="contact-l__form">
+												<div class="contact-l__inputBox">
+													<input type="text" required="required">
+													<span>Ваше имя</span>
+													<i></i>
+												</div>
+												<div class="contact-l__inputBox">
+													<input class="contact-lphone" type="tel" name="phone" id="m-phone"
+														required="required">
+													<span>Ваш номер телефона</span>
+													<i></i>
+												</div>
+												<div class="contact-l__inputBox">
+													<textarea required="required"></textarea>
+													<span>Какой сайт Вам нужен?</span>
+													<i></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="contact__column-r contact-r">
+										<div class="contact-r__body">
+											<div class="contact-r__tele">
+												<p>Телефон:</p>
+												<a href="#"><span>+38 (012) 345 67 89</span></a>
+											</div>
+											<div class="contact-r__mail">
+												<p>Почта:</p>
+												<a href="#"><span>yasobakatisobaka@gmail.da</span></a>
+											</div>
+											<div class="contact-r__social">
+												<p>Соцсети:</p>
+												<a href="#"><img src="img/telegram.svg" alt=""></a>
+												<a href="#"><img src="img/viber.svg" alt=""></a>
+												<a href="#"><img src="img/whatsapp.svg" alt=""></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="contact__bottom">
+									<div class="contact__button">
+										<input class="contact__btn" type="submit"> <span>Отправить</span>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<h3 class="footer__creator">
+					Created by <span>Oleksandr T.</span>, 2022.
+				</h3>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<form action="#" class="form">
+					<button data-close type="button" class="popup__close"></button>
+					<h2 class="popup__title">
+						<p> Оставьте заявку</p>
+						<p>и я свяжусь с Вами в ближайшее время</p>
+					</h2>
+					<div class="popup__inputBox">
+						<input type="text" required="required">
+						<span>Полное имя</span>
+						<i></i>
+					</div>
+					<div class="popup__inputBox">
+						<input class="popup__phone" type="tel" name="phone" id="phone" required="required">
+						<span>Номер телефона</span>
+						<i></i>
+					</div>
+					<div class="popup__inputBox">
+						<textarea required="required"></textarea>
+						<span>Оставьте Ваше сообщение...</span>
+						<i></i>
+					</div>
+					<div class="popup__inputBox popup__btn">
+						<input class="popup__button" type="submit" value="Отправить">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js"></script>
+	<script src="js/styleswitcher.js"></script>
+</body>
+
+</html>
